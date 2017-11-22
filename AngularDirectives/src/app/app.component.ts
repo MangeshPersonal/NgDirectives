@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent 
 {
-  title = 'passing data from Parent component to the child ';
+  title = 'Root Component ';
 }

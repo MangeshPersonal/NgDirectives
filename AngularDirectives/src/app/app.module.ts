@@ -7,8 +7,7 @@ import { MyfirstcomponentComponent } from './myfirstcomponent/myfirstcomponent.c
 @NgModule({
   declarations: [
     AppComponent,
-    MyfirstcomponentComponent
-   
+    MyfirstcomponentComponent,
   ],
   imports: [
     BrowserModule

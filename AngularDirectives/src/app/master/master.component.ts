@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MasterComponent implements OnInit {
   
-  sendgreetingtochild:string="accept values from Parent ";
+  sendgreetingtochild:string="Accept the Greeting from Parent ";
   constructor() { }
 
   ngOnInit() {

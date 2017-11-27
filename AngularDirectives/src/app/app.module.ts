@@ -7,6 +7,8 @@ import { MasterComponent } from './master/master.component';
 import { ChildComponent } from './child/child.component';
 import { ChildwithoutputandemiterComponent } from './childwithoutputandemiter/childwithoutputandemiter.component';
 import { MasterwithoutputandeventemiterComponent } from './masterwithoutputandeventemiter/masterwithoutputandeventemiter.component';
+import { ChildwithViewChildComponent } from './childwith-view-child/childwith-view-child.component';
+import { MasterwithViewChildComponent } from './masterwith-view-child/masterwith-view-child.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { MasterwithoutputandeventemiterComponent } from './masterwithoutputandev
     ChildComponent,
     ChildwithoutputandemiterComponent,
     MasterwithoutputandeventemiterComponent,
+    ChildwithViewChildComponent,
+    MasterwithViewChildComponent,
   ],
   imports: [
     BrowserModule,

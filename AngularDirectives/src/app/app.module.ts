@@ -9,9 +9,14 @@ import { ChildwithoutputandemiterComponent } from './childwithoutputandemiter/ch
 import { MasterwithoutputandeventemiterComponent } from './masterwithoutputandeventemiter/masterwithoutputandeventemiter.component';
 import { ChildwithViewChildComponent } from './childwith-view-child/childwith-view-child.component';
 import { MasterwithViewChildComponent } from './masterwith-view-child/masterwith-view-child.component';
+import { FirstComponentComponent } from './first-component/first-component.component';
+import { SecondcomponentComponent } from './secondcomponent/secondcomponent.component';
+import{DataService} from './data.service'
+
 
 @NgModule({
-  declarations: [
+  declarations: 
+  [
     AppComponent,
     MyfirstcomponentComponent,
     MasterComponent,
@@ -20,13 +25,15 @@ import { MasterwithViewChildComponent } from './masterwith-view-child/masterwith
     MasterwithoutputandeventemiterComponent,
     ChildwithViewChildComponent,
     MasterwithViewChildComponent,
+    FirstComponentComponent,
+    SecondcomponentComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule
   ],
   exports:[AppComponent],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
